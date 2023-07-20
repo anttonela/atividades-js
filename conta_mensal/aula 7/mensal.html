@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Conta mensal</title>
+</head>
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <div class="header">
+        <h1>Conta mensal</h1>
+    </div>
+
+    <div class="row">
+        <div class="column side">
+            <b><div class="texto-lancamento">Para adicionar novos lançamentos de dados:</div></b>
+
+            <div class="espaco">
+                <div id="form-lancamento">
+                    <select id="mes">
+                    </select>
+                    <select id="tipo">
+                        <option>receita</option>
+                        <option>despesa</option>
+                    </select>
+                    <input id="categoria" type="text" placeholder="categoria" />
+                    <input id="valor" type="number" placeholder="valor" />
+                    <br /><br />
+                    <button id="botao">Adicionar Lançamento</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="column middle">
+            <b>
+                <div class="texto">Gráfico de gastos: 2022</div>
+            </b>
+            <div class="grafico">
+                <div class="grafico-coluna">
+                    <div class="grafico-coluna-cor2"></div>
+                    <div class="grafico-coluna-texto">
+                        Janeiro
+                    </div>
+                </div>
+                <div class="grafico-coluna">
+                    <div class="grafico-coluna-cor"></div>
+                    <div class="grafico-coluna-texto">
+                        Fevereiro
+                    </div>
+                </div>
+                <div class="grafico-coluna">
+                    <div class="grafico-coluna-cor3"></div>
+                    <div class="grafico-coluna-texto">
+                        Março
+                    </div>
+                </div>
+                <div class="grafico-coluna">
+                    <div class="grafico-coluna-cor"></div>
+                    <div class="grafico-coluna-texto">
+                        Abril
+                    </div>
+                </div>
+                <div class="grafico-coluna">
+                    <div class="grafico-coluna-cor4"></div>
+                    <div class="grafico-coluna-texto">
+                        Maio
+                    </div>
+                </div>
+                <div class="grafico-coluna">
+                    <div class="grafico-coluna-cor2"></div>
+                    <div class="grafico-coluna-texto">
+                        Junho
+                    </div>
+                </div>
+                <div class="grafico-coluna">
+                    <div class="grafico-coluna-cor3"></div>
+                    <div class="grafico-coluna-texto">
+                        Julho
+                    </div>
+                </div>
+            </div>
+ 
+        </div>
+    </div>
+
+
+    <div id="app"></div>
+    <script src="main.js" charset="utf8"></script>
+</body>
+
+</html>>
